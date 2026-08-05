@@ -1,0 +1,10 @@
+# このファイルの内容をリポジトリ直下の .github/workflows/ci.yml にコピーして使う
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "CI started"

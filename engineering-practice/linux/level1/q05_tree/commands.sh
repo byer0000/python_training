@@ -1,0 +1,2 @@
+# 例:
+# tree ~/practice

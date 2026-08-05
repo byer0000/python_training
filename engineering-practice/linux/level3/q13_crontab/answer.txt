@@ -1,0 +1,2 @@
+# ここに書いたcrontabの記法を記入してください
+# 例: 0 6 * * * /usr/bin/python3 /home/user/scripts/daily_report.py
