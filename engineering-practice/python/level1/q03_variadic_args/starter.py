@@ -1,5 +1,7 @@
 def calc(a, b, *args, **kwargs):
     # TODO: args の合計と kwargs の中身を表示する
+    print(f"args合計: {sum(args)}")
+    print(f"kwargs: {kwargs}")
     pass
 
 
