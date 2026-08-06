@@ -1,9 +1,9 @@
 def slice_examples(nums: list) -> dict:
     # TODO: 3種類のスライス結果を辞書にまとめて返す
     return {
-        "skip_first_two": None,
-        "last_two": None,
-        "every_other": None,
+        "skip_first_two": list(nums[2:]),
+        "last_two": list(nums[-2:]),
+        "every_other": list(nums[::2]),
     }
 
 
