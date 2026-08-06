@@ -3,14 +3,15 @@ class BankAccount:
         self.owner = owner
         self.balance = balance
 
+    # 入金
     def deposit(self, amount: float) -> None:
-        # TODO: 実装する
-        pass
+        self.balance += amount
 
+    # 出金
     def withdraw(self, amount: float) -> None:
-        # TODO: 残高不足なら ValueError を送出する
-        pass
-
+        if amount > self.balance:
+            raise ValueError("残高不足です")
+        self.balance -= amount
 
 if __name__ == "__main__":
     acc = BankAccount("Yuta", 1000)
